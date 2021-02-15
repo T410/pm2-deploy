@@ -13,9 +13,7 @@ module.exports = {
       repo: "git@github.com:T410/pm2-deploy.git",
       ref: "origin/main",
       key: "ssh-key-path-in-local-machine",
-      "pre-deploy-local": "",
       "post-deploy": "npm i; pm2 reload ecosystem.config.js --env production",
-      "pre-setup": "",
     },
   },
 };
