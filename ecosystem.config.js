@@ -10,7 +10,7 @@ module.exports = {
       user: "remote-server-username",
       host: "remote-server-ip",
       path: "project-path-in-remote-server",
-      repo: "git@github.com:T410/pm2-deploy",
+      repo: "git@github.com:T410/pm2-deploy.git",
       ref: "origin/main",
       key: "ssh-key-path-in-local-machine",
       "pre-deploy-local": "",
